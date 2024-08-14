@@ -1,0 +1,58 @@
+.header {
+    background-color: #101010;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.inner-header {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    float: left;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.navigation a li {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover {
+    background-color: gray;
+    color: #101010;
+    transition: background-color 0.2s ease;
+}
+
+.content {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.float-left {
+    float: left;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
